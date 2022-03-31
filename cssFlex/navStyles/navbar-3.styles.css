@@ -1,0 +1,81 @@
+.navbar-3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--COLOR_PURPLE);
+    width: 100%;
+    height: 100px;
+}
+
+.navbar-img-container-3{
+    height: 100%;
+    background-color:rgb(136, 136, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  
+}
+
+.navbar-img-container-3 img {
+    width: 70px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px dotted black;
+    border-radius: 35% 50% 50% 25%;
+
+}
+
+.navbar-3 .navbar-list-3 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-grow:1;
+}
+
+
+
+.navbar-3 .navbar-list-3 li:last-child {
+    margin-left: auto;
+
+}
+.navbar-3 .navbar-list-3 li:first-child {
+    margin-left: auto;
+
+}
+
+
+.navbar-3 .navbar-list-3 li {
+    height: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px 30px ;
+    color: white;
+    border-radius: 50%;
+
+}
+
+
+
+.navbar-3 .navbar-list-3 li:hover {
+    border-bottom: 4px solid white;  
+    padding-top: 4px;
+    background-color: rgb(88, 88, 156);   
+}
+
+.navbar-3 .navbar-list-3 li:active {
+    border-bottom: 1px solid white;  
+    padding-top: 4px;
+    background-color: rgb(88, 88, 156);   
+}
+.navbar-3 .navbar-list-3 li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: inherit;
+    text-transform: capitalize;
+
+}
